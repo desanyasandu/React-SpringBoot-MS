@@ -1,0 +1,67 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.ead2:library-api >------------------------
+[INFO] Building library-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ library-api ---
+[INFO] Deleting C:\Users\DYD\Desktop\EAD CW\library-api\library-api\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ library-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ library-api ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 14 source files with javac [debug release 17] to target\classes
+.\mvnw : WARNING: A 
+terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+At line:1 char:1
++ .\mvnw clean 
+compile > 
+maven_output_2.log 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (WARNING   
+ : A term...has b    
+een called:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t has been called by 
+lombok.permit.Permit
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class 
+lombok.permit.Permit
+WARNING: sun.misc.Uns
+afe::objectFieldOffse
+t will be removed in 
+a future release
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.253 s
+[INFO] Finished at: 2026-03-13T11:48:24+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project library-api: Fatal error compiling: java.lang.ExceptionInInitializerError: com.sun.tools.javac.code.TypeTag :: UNKNOWN -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
